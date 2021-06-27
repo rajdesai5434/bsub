@@ -11,8 +11,6 @@ contract Subscribe{
 	constructor() public {
 		//await subs.compSubs(1)
 		addCompSub("AjayAndCompany","Hello","World Peace");
-		//await subs.compSub(2)
-		//addCompSub("ManaliAndCompany","Bye","World War");
 	}
 	struct compSub {
 		string compName;
@@ -27,7 +25,7 @@ contract Subscribe{
 	uint public actualCount;
 
 	//if called during run time, this will create a transaction and that's how it will store data
-	//subs.addCompSub("Raj","ohnono","go",{from:accounts[1]})
+	//subs.addCompSub("Raj","oh","go",{from:accounts[1]})
 	function addCompSub (string memory _name, string memory _subject, string memory _body) public {
 		require(compPosition[msg.sender]==0);
 		allSubCount ++;
