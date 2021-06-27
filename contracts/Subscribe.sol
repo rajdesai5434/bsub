@@ -55,8 +55,3 @@ contract Subscribe{
 	}
 
 }
-
-//Made good progress
-//I am able to create this sub model pretty fast. Seems like defi is harder
-//All i need to do is add UI on this. This will allow users to get comp sub withoug sharing any data of theirs
-//all the need to do is open this UI and searh for their sub
